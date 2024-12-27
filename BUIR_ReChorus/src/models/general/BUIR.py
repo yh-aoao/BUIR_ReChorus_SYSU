@@ -7,7 +7,7 @@ Reference:
     "Bootstrapping User and Item Representations for One-Class Collaborative Filtering"
     Lee et al., SIGIR'2021.
 CMD example:
-     python .\src\main.py --model_name BUIR_NB --emb_size 64 --lr 1e-3 --l2 1e-6 --dataset 'Grocery_and_Gourmet_Food'
+     python .\src\main.py --model_name BUIR --emb_size 64 --lr 1e-3 --l2 1e-6 --dataset 'Grocery_and_Gourmet_Food'
 
 """
 
