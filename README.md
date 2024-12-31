@@ -55,7 +55,7 @@ ReChours是一种基于深度学习的推荐系统模型，
 ## 实验
 1.复现实验
 
-我们在ReChorus框架上复现了BUIR_NB模型，并使用ReChorus框架里的三个数据集“Grocery_and_Gourmet_Food”、“MIND_Large”、“MovieLens_1M”来与原ReChorus中同类别的两个其他模型（这里说明哪两个模型）进行对比
+我们在ReChorus框架上复现了BUIR_NB模型，并使用ReChorus框架里的三个数据集“Grocery_and_Gourmet_Food”、“MIND_Large”来与原ReChorus中同类别的两个其他模型（BRRMF、NEUMF）进行对比
 
 2.改进实验
 
