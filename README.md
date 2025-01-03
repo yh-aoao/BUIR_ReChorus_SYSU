@@ -57,11 +57,23 @@ ReChours是一种基于深度学习的推荐系统模型，
 
 我们在ReChorus框架上复现了BUIR_NB模型，并使用ReChorus框架里的三个数据集“Grocery_and_Gourmet_Food”、“MIND_Large”来与原ReChorus中同类别的两个其他模型（BRRMF、NEUMF）进行对比
 
+### 1.1 数据集“Grocery_and_Gourmet_Food”
+#### 1.1.1 BUIR_NB模型结果
+#### 1.1.2 BRRMF模型结果
+#### 1.1.3 NEUMF模型结果
+
+### 1.2 数据集“MIND_Large”
+#### 1.2.1 BUIR_NB模型结果
+#### 1.2.2 BRRMF模型结果
+#### 1.2.3 NEUMF模型结果
+
 2.改进实验
 
 我们在原BUIR_NB模型的基础上进行了改进，具体改进有：用PYG库来实现图卷积功能、引入了注意力机制（GAT）、引入图神经网络的解释性
 
 并在原BUIR_NB模型的数据集“toy-dataset”上进行了对比实验
+
+###
 
 ## 实验结果
 1.复现实验结果
