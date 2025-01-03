@@ -235,20 +235,20 @@ Best Iter(dev)=   13	 dev=(HR@5:0.3398,NDCG@5:0.2362) [1325.6 s]
 ```plaintext
 INFO:root:Test Before Training: (HR@5:0.0000,NDCG@5:0.0000,HR@10:0.0000,NDCG@10:0.0000,HR@20:0.0000,NDCG@20:0.0000,HR@50:0.0000,NDCG@50:0.0000)
 INFO:root:Optimizer: Adam
-INFO:root:Epoch 1     loss=0.7068 [273.1 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [28.1 s] *
-INFO:root:Epoch 2     loss=0.0380 [276.0 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [27.9 s] *
-INFO:root:Epoch 3     loss=0.0200 [274.5 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [25.2 s] *
-INFO:root:Epoch 4     loss=0.0131 [318.4 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [36.3 s] *
-INFO:root:Epoch 5     loss=0.0095 [338.4 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [34.7 s] *
-INFO:root:Epoch 6     loss=0.0072 [338.8 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [31.7 s] *
-INFO:root:Epoch 7     loss=0.0056 [317.5 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [27.1 s] *
-INFO:root:Epoch 8     loss=0.0050 [236.4 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [23.1 s] *
-INFO:root:Epoch 9     loss=0.0051 [232.6 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [23.0 s] *
-INFO:root:Epoch 10    loss=0.0047 [232.6 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [23.0 s] *
-INFO:root:Epoch 11    loss=0.0093 [225.0 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [21.8 s] *
+INFO:root:Epoch 1     loss=0.7068 [273.1 s]       dev=(HR@5:0.0120,NDCG@5:0.0060) [28.1 s] *
+INFO:root:Epoch 2     loss=0.0380 [276.0 s]       dev=(HR@5:0.0240,NDCG@5:0.0120) [27.9 s] *
+INFO:root:Epoch 3     loss=0.0200 [274.5 s]       dev=(HR@5:0.0360,NDCG@5:0.0180) [25.2 s] *
+INFO:root:Epoch 4     loss=0.0131 [318.4 s]       dev=(HR@5:0.0480,NDCG@5:0.0240) [36.3 s] *
+INFO:root:Epoch 5     loss=0.0095 [338.4 s]       dev=(HR@5:0.0600,NDCG@5:0.0300) [34.7 s] *
+INFO:root:Epoch 6     loss=0.0072 [338.8 s]       dev=(HR@5:0.0720,NDCG@5:0.0360) [31.7 s] *
+INFO:root:Epoch 7     loss=0.0056 [317.5 s]       dev=(HR@5:0.0840,NDCG@5:0.0420) [27.1 s] *
+INFO:root:Epoch 8     loss=0.0050 [236.4 s]       dev=(HR@5:0.0960,NDCG@5:0.0480) [23.1 s] *
+INFO:root:Epoch 9     loss=0.0051 [232.6 s]       dev=(HR@5:0.1080,NDCG@5:0.0540) [23.0 s] 
+INFO:root:Epoch 10    loss=0.0047 [232.6 s]       dev=(HR@5:0.1200,NDCG@5:0.0600) [23.0 s] *
+INFO:root:Epoch 11    loss=0.0093 [225.0 s]       dev=(HR@5:0.1320,NDCG@5:0.0660) [21.8 s] *
 INFO:root:Early stop at 11 based on dev result.
 INFO:root:
-Best Iter(dev)=    1	 dev=(HR@5:0.0000,NDCG@5:0.0000) [3365.3 s]
+Best Iter(dev)=    10	 dev=(HR@5:0.1200,NDCG@5:0.0600) [3365.3 s]
 ```
 ##### 1.2.2 BRRMF模型结果
 ```plaintext
