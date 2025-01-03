@@ -67,6 +67,7 @@ ReChours是一种基于深度学习的推荐系统模型，
 ### 1.复现实验结果
 #### 1.1数据集“Grocery_and_Gourmet_Food”
 ##### 1.1.1 BUIR_NB模型结果
+```plaintext
 Test Before Training: (HR@5:0.0000,NDCG@5:0.0000,HR@10:0.0000,NDCG@10:0.0000,HR@20:0.0000,NDCG@20:0.0000,HR@50:0.0000,NDCG@50:0.0000)
 Optimizer: Adam
 Epoch 1     loss=0.7689 [233.5 s]       dev=(HR@5:0.0029,NDCG@5:0.0015) [77.9 s] *
@@ -88,9 +89,10 @@ Epoch 16    loss=0.0100 [508.4 s]       dev=(HR@5:0.0031,NDCG@5:0.0016) [110.2 s
 Epoch 17    loss=0.0062 [335.3 s]       dev=(HR@5:0.0031,NDCG@5:0.0016) [104.0 s]
 Epoch 18    loss=0.0061 [318.1 s]       dev=(HR@5:0.0028,NDCG@5:0.0014) [100.7 s]
 Early stop at 18 based on dev result.
-
 Best Iter(dev)=    9     dev=(HR@5:0.0035,NDCG@5:0.0018) [6035.2 s]
+```
 ##### 1.1.2 BRRMF模型结果
+```plaintext
 INFO:root:Test Before Training: (HR@5:0.0523,NDCG@5:0.0313,HR@10:0.1034,NDCG@10:0.0475,HR@20:0.2037,NDCG@20:0.0726,HR@50:0.5053,NDCG@50:0.1314)
 INFO:root:Optimizer: Adam
 INFO:root:Epoch 1     loss=0.6690 [23.5 s]	dev=(HR@5:0.2094,NDCG@5:0.1341) [20.0 s] *
@@ -195,8 +197,10 @@ INFO:root:Epoch 99    loss=0.0268 [28.4 s]	dev=(HR@5:0.4140,NDCG@5:0.3015) [19.8
 INFO:root:Epoch 100   loss=0.0262 [50.9 s]	dev=(HR@5:0.4147,NDCG@5:0.3019) [26.4 s]
 INFO:root:Early stop at 100 based on dev result.
 INFO:root:
-Best Iter(dev)=   91	 dev=(HR@5:0.4150,NDCG@5:0.3022) [5018.3 s] 
+Best Iter(dev)=   91	 dev=(HR@5:0.4150,NDCG@5:0.3022) [5018.3 s]
+```
 ##### 1.1.3 NEUMF模型结果
+```plaintext
 INFO:root:Test Before Training: (HR@5:0.0524,NDCG@5:0.0301,HR@10:0.1010,NDCG@10:0.0456,HR@20:0.1978,NDCG@20:0.0698,HR@50:0.4901,NDCG@50:0.1269)
 INFO:root:Optimizer: Adam
 INFO:root:Epoch 1     loss=0.5065 [31.6 s]	dev=(HR@5:0.2417,NDCG@5:0.1584) [19.8 s] *
@@ -224,10 +228,11 @@ INFO:root:Epoch 22    loss=0.0873 [31.7 s]	dev=(HR@5:0.3349,NDCG@5:0.2316) [23.9
 INFO:root:Early stop at 22 based on dev result.
 INFO:root:
 Best Iter(dev)=   13	 dev=(HR@5:0.3398,NDCG@5:0.2362) [1325.6 s] 
-
+```
 
 #### 1.2 数据集“MIND_Large”
 ##### 1.2.1 BUIR_NB模型结果
+```plaintext
 INFO:root:Test Before Training: (HR@5:0.0000,NDCG@5:0.0000,HR@10:0.0000,NDCG@10:0.0000,HR@20:0.0000,NDCG@20:0.0000,HR@50:0.0000,NDCG@50:0.0000)
 INFO:root:Optimizer: Adam
 INFO:root:Epoch 1     loss=0.7068 [273.1 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [28.1 s] *
@@ -243,8 +248,10 @@ INFO:root:Epoch 10    loss=0.0047 [232.6 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [23.
 INFO:root:Epoch 11    loss=0.0093 [225.0 s]	dev=(HR@5:0.0000,NDCG@5:0.0000) [21.8 s] *
 INFO:root:Early stop at 11 based on dev result.
 INFO:root:
-Best Iter(dev)=    1	 dev=(HR@5:0.0000,NDCG@5:0.0000) [3365.3 s] 
+Best Iter(dev)=    1	 dev=(HR@5:0.0000,NDCG@5:0.0000) [3365.3 s]
+```
 ##### 1.2.2 BRRMF模型结果
+```plaintext
 INFO:root:Test Before Training: (HR@5:0.0441,NDCG@5:0.0265,HR@10:0.1000,NDCG@10:0.0446,HR@20:0.1853,NDCG@20:0.0659,HR@50:0.4990,NDCG@50:0.1271)
 INFO:root:Optimizer: Adam
 INFO:root:Epoch 1     loss=0.6541 [25.2 s]	dev=(HR@5:0.0371,NDCG@5:0.0209) [18.5 s] *
@@ -321,8 +328,10 @@ INFO:root:Epoch 71    loss=0.0306 [21.1 s]	dev=(HR@5:0.0595,NDCG@5:0.0363) [16.2
 INFO:root:Epoch 72    loss=0.0307 [20.8 s]	dev=(HR@5:0.0592,NDCG@5:0.0361) [16.4 s]
 INFO:root:Early stop at 72 based on dev result.
 INFO:root:
-Best Iter(dev)=   63	 dev=(HR@5:0.0641,NDCG@5:0.0385) [3207.7 s] 
+Best Iter(dev)=   63	 dev=(HR@5:0.0641,NDCG@5:0.0385) [3207.7 s]
+```
 ##### 1.2.3 NEUMF模型结果
+```plaintext
 INFO:root:Test Before Training: (HR@5:0.0755,NDCG@5:0.0436,HR@10:0.1588,NDCG@10:0.0704,HR@20:0.2618,NDCG@20:0.0964,HR@50:0.5441,NDCG@50:0.1518)
 INFO:root:Optimizer: Adam
 INFO:root:Epoch 1     loss=0.4079 [36.4 s]	dev=(HR@5:0.0374,NDCG@5:0.0206) [20.5 s] *
@@ -347,8 +356,9 @@ INFO:root:Epoch 19    loss=0.2492 [38.2 s]	dev=(HR@5:0.0601,NDCG@5:0.0349) [24.2
 INFO:root:Early stop at 19 based on dev result.
 INFO:root:
 Best Iter(dev)=   10	 dev=(HR@5:0.0647,NDCG@5:0.0375) [1128.3 s] 
-
-### 2.改进实验结果
+```
+### 2. 改进实验结果
+```plaintext
 #### 2.1 原BUIR_NB模型结果
 ===== [FINAL PERFORMANCE] =====
 
@@ -359,7 +369,9 @@ VALID P@50: 0.3439, R@50: 0.3432, N@50: 0.1851
 TEST  P@10: 0.1644, R@10: 0.1559, N@10: 0.1250
 TEST  P@20: 0.2256, R@20: 0.2229, N@20: 0.1440
 TEST  P@50: 0.3408, R@50: 0.3401, N@50: 0.1757
+```
 #### 2.2 BUIR_PYG模型结果
+```plaintext
 ===== [FINAL PERFORMANCE] =====
 
 VALID P@10: 0.0872, R@10: 0.0813, N@10: 0.0732
@@ -369,7 +381,10 @@ VALID P@50: 0.1894, R@50: 0.1889, N@50: 0.1016
 TEST  P@10: 0.0794, R@10: 0.0738, N@10: 0.0665
 TEST  P@20: 0.1085, R@20: 0.1068, N@20: 0.0757
 TEST  P@50: 0.1802, R@50: 0.1798, N@50: 0.0970
+```
+
 #### 2.3 BUIR_GAT模型结果
+```plaintext
 ===== [FINAL PERFORMANCE] =====
 
 VALID P@10: 0.0247, R@10: 0.0226, N@10: 0.0170
@@ -379,7 +394,9 @@ VALID P@50: 0.0878, R@50: 0.0874, N@50: 0.0352
 TEST  P@10: 0.0336, R@10: 0.0315, N@10: 0.0204
 TEST  P@20: 0.0535, R@20: 0.0524, N@20: 0.0271
 TEST  P@50: 0.1003, R@50: 0.1001, N@50: 0.0400
+```
 #### 2.4 BUIR_GCN模型结果
+```plaintext
 ===== [FINAL PERFORMANCE] =====
 
 VALID P@10: 0.1067, R@10: 0.1044, N@10: 0.0701
@@ -389,4 +406,4 @@ VALID P@50: 0.2460, R@50: 0.2458, N@50: 0.1077
 TEST  P@10: 0.0903, R@10: 0.0884, N@10: 0.0623
 TEST  P@20: 0.1264, R@20: 0.1257, N@20: 0.0739
 TEST  P@50: 0.2229, R@50: 0.2228, N@50: 0.0973
-
+```
