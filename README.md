@@ -358,8 +358,9 @@ INFO:root:
 Best Iter(dev)=   10	 dev=(HR@5:0.0647,NDCG@5:0.0375) [1128.3 s] 
 ```
 ### 2. 改进实验结果
-```plaintext
+
 #### 2.1 原BUIR_NB模型结果
+```plaintext
 ===== [FINAL PERFORMANCE] =====
 
 VALID P@10: 0.1774, R@10: 0.1681, N@10: 0.1364
